@@ -32,9 +32,8 @@ function sendRequest(options,data=""){
 async function authenticate(){
   console.log("***** Authentication started.")
   const data = JSON.stringify({
-    'username': 'diamond_expiry_executor',
-    'password': 'fdsafdsa',
-    'select-optimised': 'true'
+    'username': 'username',
+    'password': 'password'
   })
 
   const options = {
